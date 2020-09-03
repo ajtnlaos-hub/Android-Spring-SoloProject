@@ -5,10 +5,10 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/background"
-    tools:context=".navigation.fragment.MainFragment">
+    tools:context=".navigation.fragment.ResultFragment">
 
     <TextView
-        android:id="@+id/TextView"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="124dp"
@@ -23,7 +23,7 @@
         />
 
     <TextView
-        android:id="@+id/Img"
+        android:id="@+id/result"
         android:text="May be you give up on love too easily.."
         android:textSize="15sp"
         android:fontFamily="sans-serif-light"
@@ -32,17 +32,18 @@
         android:layout_marginTop="220dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TextView"
+        app:layout_constraintTop_toBottomOf="@+id/title"
         />
 
     <ImageView
+        android:id="@+id/btn_home"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/home"
         android:layout_marginTop="200dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Img"
+        app:layout_constraintTop_toBottomOf="@+id/result"
         />
 
 

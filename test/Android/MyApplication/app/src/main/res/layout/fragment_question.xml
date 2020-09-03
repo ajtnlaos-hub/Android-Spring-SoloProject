@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/background"
-    tools:context=".navigation.fragment.MainFragment">
+    tools:context=".navigation.fragment.QuestionFragment">
 
     <TextView
         android:id="@+id/TextView"
@@ -32,7 +32,7 @@
         />
 
     <ImageView
-        android:id="@+id/ImageButton"
+        android:id="@+id/btn_next"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/next"
